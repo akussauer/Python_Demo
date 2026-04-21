@@ -1,3 +1,8 @@
+import pandas as pd
+
+version = pd.__version__
+print(f"pandas version: {version}")
+
 import distutils.core
 from pkgutil import ImpImporter
 
